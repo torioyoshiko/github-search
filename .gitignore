@@ -27,3 +27,4 @@ yarn-error.log*
 .idea/modules.xml
 .idea/workspace.xml
 .gitattributes
+.idea/vcs.xml

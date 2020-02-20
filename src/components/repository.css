@@ -50,6 +50,10 @@
     align-items: center;
 }
 
+.another-info a {
+    margin-left: 16px;
+}
+
 .star {
     margin-right: 5px;
 }

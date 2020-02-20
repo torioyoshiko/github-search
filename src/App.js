@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
-import SearchLine from "./components/SearchLine";
+import { BrowserRouter, Route } from 'react-router-dom';
+import GlobalSearch from './containers/GlobalSearch';
+import UserSearch from './containers/UserSearch';
 
 function App() {
   return (
-    <div className="App">
-        <SearchLine/>
+    <div>
+      <BrowserRouter>
+        <Route path="/globalSearch" component={GlobalSearch} />
+        <Route path="/user/:username" component={UserSearch} />
+      </BrowserRouter>
     </div>
   );
 }
