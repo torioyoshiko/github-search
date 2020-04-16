@@ -16,14 +16,14 @@ class Repository extends Component {
     return (
       <div className="repository-all">
         <div className="book">
-          <img alt="book" src="/book.svg" />
+          <img src={process.env.PUBLIC_URL + '/book.svg'} alt="book"/>
         </div>
         <div className="repository">
           <a className="full-name" href={url}>{full_name}</a>
           <div className="description">{description}</div>
           <div className="info">
             <div className="another-info">
-              <img alt="star" className="star" src="/star.svg" />
+              <img src={process.env.PUBLIC_URL + '/star.svg'} alt="star" className="star"/>
               {stargazers_count}
             </div>
             <div className="another-info">
