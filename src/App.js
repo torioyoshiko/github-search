@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Route path="/globalSearch" component={GlobalSearch} />
-        <Route path="/user/:username" component={UserSearch} />
+        <Route path={process.env.PUBLIC_URL + '/'} component={GlobalSearch} />
+        <Route path={process.env.PUBLIC_URL + '/user/:username'} component={UserSearch} />
       </BrowserRouter>
     </div>
   );
