@@ -1,5 +1,5 @@
 # github-search
-A simple task, its allows you to search github repositories.
+It's a simple react project, its allows you to search github repositories.
 
 # Demo
  https://torioyoshiko.github.io/github-search/
